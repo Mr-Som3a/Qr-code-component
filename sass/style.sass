@@ -1,0 +1,46 @@
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    font-family: 'Outfit'
+    body
+        background: linear-gradient(0deg, #ccdcdf 0%, rgba(249,230,255,1) 100%)
+        background-repeat: no-repeat
+        background-attachment: fixed
+        height: 100vh
+        display: flex
+        align-items: center
+        justify-content: center
+        text-align: center
+        main
+            display: flex
+            flex-direction: column
+            width: 250px
+            height: 380px
+            border-radius: 15px
+            background-color: white
+            align-items: center
+            padding: 10px
+            picture
+                img
+                    width: 230px
+                    border-radius: 8px
+            section
+                margin: 10px
+                p
+                    margin-top: 15px
+                    color: gray
+                    font-size: 12px
+
+@media (max-width: 500px)
+    body
+        main
+            width: 280px
+            height: 400px
+            picture
+                img
+                    width: 260px
+            section
+                p
+                    font-size: 14px
